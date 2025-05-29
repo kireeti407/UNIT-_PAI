@@ -7,7 +7,7 @@ export default function Displaysnack({data}){
                 {data.map((e)=>(
                     <div style={{border:"1px solid white",padding:"10px"}}>
                         <p><strong>title: </strong>{e.title}</p>
-                        <p><strong>category: </strong>category:{e.category}</p>
+                        <p><strong>category: </strong>{e.category}</p>
                         <p><strong>price: </strong>{e.price}</p>
                         <p><strong>rating: </strong>{e.rating}</p>
                     </div>
